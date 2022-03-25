@@ -11,6 +11,7 @@ resources:
 #- pipelines/java-maven-dev-pipeline.yaml
 - pipelines/mq-pipeline-dev.yaml
 - pipelines/mq-spring-app-dev-pipeline.yaml
+- pipelines/mq-metric-samples-dev-pipeline.yaml
 - roles/custom-pipeline-sa-clusterrole.yaml
 - roles/custom-pipeline-sa-role.yaml
 - roles/custom-ci-pipeline-sa-rolebinding.yaml
@@ -38,6 +39,7 @@ resources:
 - tasks/ibm-java-maven-test-v2-6-13.yaml
 - tasks/ibm-setup-v2-6-13.yaml
 - tasks/ibm-tag-release-v2-6-13.yaml
+- tasks/mq-metrics-build-tag-push.yaml
 
 # Automated promotion process triggers
 
