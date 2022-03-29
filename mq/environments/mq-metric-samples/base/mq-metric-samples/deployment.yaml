@@ -1,5 +1,6 @@
 ---
 # Source: mq-metric-samples/templates/deployment.yaml
+# dummy AJO
 apiVersion: apps/v1
 kind: Deployment
 metadata:
