@@ -9,7 +9,7 @@ metadata:
     prometheus.io/port: "9157"
   labels:
     app.kubernetes.io/name: mq-metric-samples
-    helm.sh/chart: mq-metric-samples-1.0.0-rcv5.2.6
+    helm.sh/chart: mq-metric-samples-1.0.0-rcv5.2.7
     app.kubernetes.io/instance: mq-metric-samples
     app: mq-metric-samples
 spec:
